@@ -1,9 +1,9 @@
 * {
-
+  
   box-sizing: border-box;
 
 }
-  
+
 body {
 
   display: flex;
@@ -12,9 +12,9 @@ body {
   flex-direction: column;
   background-color: #191919;
   min-height: 100vh;
-    
+
 }
-  
+
 input {
 
   border: none;
@@ -24,7 +24,7 @@ input {
   font-family: inherit;
 
 }
-  
+
 h1 {
 
   font-family: 'Montserrat', sans-serif;
@@ -32,7 +32,7 @@ h1 {
   color: #fff;
 
 }
-  
+
 .teclado {
 
   display: grid;
@@ -43,7 +43,7 @@ h1 {
   padding: 10px;
 
 }
-  
+
 input[type=button] {
 
   border-radius: 20px;
@@ -53,7 +53,7 @@ input[type=button] {
   width: 80px;
 
 }
-  
+
 input[type=tel] {
 
   background-color: #cccccc;
@@ -66,4 +66,10 @@ input[type=tel] {
   text-align: center;
   width: 280px;
 
+}
+
+.ativa {
+
+  background-color: yellow;
+  
 }
